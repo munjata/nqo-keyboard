@@ -1,0 +1,70 @@
+// based on us_intl keyboard map file and a Sinhala keyboard map
+// version 0.3
+
+default  partial alphanumeric_keys
+xkb_symbols "nqo" {
+
+    name[Group1]="Malikan (NKO)";
+	
+		key <TLDE> {	[ 0x010007D1, 0x010007F3	]	};
+    key <AE01>	{ [ 0x010007C1, 0x010007F9, 1 ]	};
+    key <AE02>	{ [ 0x010007C2, at, 2 ]	};
+    key <AE03>	{ [ 0x010007C3, numbersign, 3 ]	};
+    key <AE04>	{ [ 0x010007C4, 0x010007FE, 4 ]	};
+    key <AE05>	{ [ 0x010007C5, percent, 5 ]	};
+    key <AE06>	{ [ 0x010007C6, 0x010007FF, 6 ]	};
+    key <AE07>	{ [ 0x010007C7, ampersand, 7 ]	};
+    key <AE08>	{ [ 0x010007C8, asterisk, 8 ]	};
+    key <AE09>	{ [ 0x010007C9, parenleft, 9 ]	};
+    key <AE10>	{ [ 0x010007C0, parenright, 0 ]	};
+    key <AE11>	{ [ 0x010007FA, minus, 0x010007FD ]	};
+    key <AE12>	{ [ equal, plus, degree ]	};
+
+
+// LEFT HAND
+    key <AD01>	{ [0x010007D1, 0x010007F3 ]	};
+    key <AD02>	{ [0x010007F4, 0x010007F5 ]	};
+    key <AD03>	{ [0x010007CE ]	};
+    key <AD04>	{ [0x010007CF ]	};
+    key <AD05>	{ [0x010007EC, 0x010007F0 ]	};
+
+// RIGHT HAND
+    key <AD06>	{ [0x010007D5 ]	};
+    key <AD07>	{ [0x010007D3 ]	};
+    key <AD08>	{ [0x010007DB ]	};
+    key <AD09>	{ [0x010007E6, 0x010007E7 ]	};
+    key <AD10>	{ [0x010007D6, 0x010007E8 ]	};
+    key <AD11>	{ [0x010007D4, bracketleft, braceleft ] };
+    key <AD12>	{ [0x010007FF, bracketright, braceright]	};
+
+    key <AC01>	{ [0x010007CB ]	};
+    key <AC02>	{ [0x010007CD ]	};
+    key <AC03>	{ [0x010007CC ]	};
+    key <AC04>	{ [0x010007CA ]	};
+    key <AC05>	{ [0x010007D0, 0x010007F6 ]	};
+
+// LEFT HAND
+    key <AC06>	{ [0x010007D8, 0x010007FE ]	};
+    key <AC07>	{ [0x010007DE ]	};
+    key <AC08>	{ [0x010007DF, 0x010007E0 ]	};
+		
+    key <AC09>	{ [0x010007E1, colon ]	}; // ߡ :
+    key <AC10>	{ [0x010007E3, quotedbl ]	}; // ߣ "
+    key <AC11>	{ [0x010007E5, slash ]	};
+    key <BKSL>	{ [0x010007D7, 0x010007E9 ]	};
+
+// LEFT HAND
+    key <AB01>	{ [0x010007ED, 0x010007F1 ]	};
+    key <AB02>	{ [0x010007EF, colon ]	};
+    key <AB03>	{ [0x010007F2, 0x010007EE ]	};
+    key <AB04>	{ [0x010007EB, 0x010007EF ]	};
+    key <AB05>	{ [0x010007D2, 0x010007F7 ] }; // ߒ
+
+    key <AB06>	{ [0x010007DD ]	}; // ߝ
+    key <AB07>	{ [0x010007D9, 0x010007DA, 0x010007EA ] }; // ߙ ߚ 
+    key <AB08>	{ [0x010007E2, 0x010007F8 ]	}; // ߢ ߸ 
+    key <AB09>	{ [0x010007DC, period ]	}; // ߜ . 
+    key <AB10>	{ [0x010007E4, 0x0100061F] }; // ߤ ؟
+
+    include "level3(ralt_switch)"
+};
