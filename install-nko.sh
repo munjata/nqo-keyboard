@@ -5,7 +5,7 @@ cp -v base.lst /usr/share/X11/xkb/rules/base.lst
 cp -v base.lst /usr/share/X11/xkb/rules/evdev.lst
 
 cp -v base.xml /usr/share/X11/xkb/rules/base.xml
-cp -v base.xml /usr/share/X11/xkb/rules/base.xml
+cp -v base.xml /usr/share/X11/xkb/rules/evdev.xml
 
 # Install nqo Keyboard
 echo "Installing Nko Keyboard";
