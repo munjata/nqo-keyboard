@@ -1,6 +1,7 @@
 # Install and Configure NKO Keyboard on Ubuntu
 
 This programm install and configure a new keyboard layout for NKO.
+
 It also install fonts for system.
 
 ![Keyboard](images/writing-test.png)
@@ -14,27 +15,36 @@ It also install fonts for system.
 
 ### Installation 
 
-    * ### Clone this repository
 ```bash
     git clone https://github.com/munjata/nqo-keyboard.git 
     cd nqo-keyboard
     ./install-nko.sh
 ```
-**It might requires logout and login into your session.**
+
+**It might require logout and login into your session.**
+
 
 ### Configuration
 
-- Go to Setting -> Region & Languagea and Select the **+** to add a new keyboard
+- Go to _**Setting -> Region & Language**_ and Select the _**+**_ to add a new keyboard
     ![Settings](images/install-step-1.png)
+
+---
 
 - Scroll down to Select has shown 
     ![Add Keyboard](images/install-step-2.png)
 
+---
+
 - In other search for **manden** and Select **Other**
     ![Other Keyboard](images/install-step-3.png)
 
+---
+
 - Select the **Second in the results**
     ![Search for Manden](images/install-step-4.png)
+
+---
 
 ### Testing
 **Mandenka (Mali) nqo** will be added to your keyboard list.
