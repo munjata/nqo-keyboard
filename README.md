@@ -1,6 +1,6 @@
 # Install and Configure NKO Keyboard on Ubuntu
 
-This programm install and configure a new keyboard layout for NKO.
+This program install and configure a new keyboard layout for NKO.
 
 It also install fonts for system.
 
