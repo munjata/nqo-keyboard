@@ -1,0 +1,29 @@
+    <layout>
+      <configItem>
+        <name>nqo</name>
+        <shortDescription>nqo</shortDescription>
+        <description>N'Ko (Mandenkan)</description>
+        <countryList>
+          <iso3166Id>ML</iso3166Id>
+          <iso3166Id>GN</iso3166Id>
+          <iso3166Id>CI</iso3166Id>
+        </countryList>
+        <languageList>
+          <iso639Id>nqo</iso639Id>
+          <iso639Id>bam</iso639Id>
+          <iso639Id>man</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>bam</name>
+            <description>N'Ko (Mali)</description>
+            <languageList>
+              <iso639Id>nqo</iso639Id>
+              <iso639Id>bam</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
